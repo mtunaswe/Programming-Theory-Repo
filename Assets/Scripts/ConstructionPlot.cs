@@ -34,21 +34,33 @@ public class ConstructionPlot : MonoBehaviour
     public void BuildAtIndex(int index)
     {
         if (index >= buildableOptions.Length || isOccupied) return;
-
-        // 1. Activate the building
+        
         GameObject selectedBuilding = buildableOptions[index];
-        selectedBuilding.SetActive(true);
-        isOccupied = true;
-
-        // 2. Deactivate the Green Field model
-        if(greenFieldModel != null)
-            greenFieldModel.SetActive(false);
-
-        // 3. Polymorphism: Trigger unique building logic
         Building buildingScript = selectedBuilding.GetComponent<Building>();
-        if (buildingScript != null)
+
+        // ABSTRACTION: Check if player has enough money
+        if (DataManager.Instance.CanAfford(buildingScript.constructionCost))
         {
+            // Spend the money
+            DataManager.Instance.SpendMoney(buildingScript.constructionCost);
+            
+            // 1. Activate the building
+            selectedBuilding.SetActive(true);
+            isOccupied = true;
+
+            // 2. Deactivate the Green Field model
+            if (greenFieldModel != null) greenFieldModel.SetActive(false);
+            
+            // 3. Polymorphism: Trigger unique building logic
+            if (buildingScript != null)
+            {
             buildingScript.ApplyBuildingEffect();
+            }
+        }
+        else
+        {
+            Debug.Log("Not enough money to build this!");
         }
     }
+
 }
