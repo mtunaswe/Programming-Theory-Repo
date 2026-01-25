@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.EventSystems;
 public class ConstructionPlot : MonoBehaviour
 {
     [Header("Visuals")]
@@ -12,17 +12,18 @@ public class ConstructionPlot : MonoBehaviour
 
     void OnMouseDown()
     {
+        // ABSTRACTION: This check hides the complexity of UI/3D interaction
+        // If the mouse is over a UI button, do NOTHING here.
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return; 
+        }
+
         if (isOccupied) return;
-        ShowBuildMenu();
-    }
 
-    void ShowBuildMenu()
-    {
-        // This is where you will trigger your Radial Menu later
-        // For now, let's test building the first option
-        BuildAtIndex(0); 
+        // ENCAPSULATION: We only open the manager if the plot is free and not blocked by UI
+        RadialMenuManager.Instance.Open(this);
     }
-
     public void BuildAtIndex(int index)
     {
         if (index >= buildableOptions.Length || isOccupied) return;
