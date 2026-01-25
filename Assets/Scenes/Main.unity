@@ -4126,6 +4126,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 215921785}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &215921788 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 215921785}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &216378361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7432,6 +7437,7 @@ GameObject:
   - component: {fileID: 345170761}
   - component: {fileID: 345170760}
   - component: {fileID: 345170759}
+  - component: {fileID: 345170762}
   m_Layer: 0
   m_Name: Grid5
   m_TagString: Untagged
@@ -7533,6 +7539,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 100.29651, y: 0.0000008742284, z: 31.655838}
   m_Center: {x: 10.071838, y: 0, z: 0.21860504}
+--- !u!114 &345170762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345170756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 2060070370}
+  - {fileID: 1600164198}
+  - {fileID: 562816635}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &345470546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8423,6 +8449,7 @@ GameObject:
   - component: {fileID: 396909059}
   - component: {fileID: 396909060}
   - component: {fileID: 396909061}
+  - component: {fileID: 396909062}
   m_Layer: 0
   m_Name: Grid8
   m_TagString: Untagged
@@ -8482,6 +8509,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
   m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
+--- !u!114 &396909062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396909058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 412625099}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &397322077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8829,6 +8874,11 @@ Transform:
 --- !u!1 &412625098 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 412625096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &412625099 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 412625096}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &413455499
@@ -10767,6 +10817,7 @@ GameObject:
   - component: {fileID: 476684075}
   - component: {fileID: 476684076}
   - component: {fileID: 476684077}
+  - component: {fileID: 476684078}
   m_Layer: 0
   m_Name: Grid2
   m_TagString: Untagged
@@ -10827,6 +10878,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.086761, y: 0.0000008742278, z: 197.96713}
   m_Center: {x: -0.07020569, y: 0, z: 0.008895874}
+--- !u!114 &476684078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476684074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 2096971923}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &478145462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12606,6 +12675,7 @@ GameObject:
   - component: {fileID: 534955809}
   - component: {fileID: 534955810}
   - component: {fileID: 534955811}
+  - component: {fileID: 534955812}
   m_Layer: 0
   m_Name: Grid1
   m_TagString: Untagged
@@ -12665,6 +12735,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 130.69861, y: 0.0000008742278, z: 20.000004}
   m_Center: {x: 0.1621437, y: 0, z: 0}
+--- !u!114 &534955812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534955808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1694134520}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &537673479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13497,6 +13585,11 @@ PrefabInstance:
 --- !u!4 &562816634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 562816633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &562816635 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 562816633}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &567267951
@@ -18758,6 +18851,7 @@ GameObject:
   - component: {fileID: 753641363}
   - component: {fileID: 753641364}
   - component: {fileID: 753641365}
+  - component: {fileID: 753641366}
   m_Layer: 0
   m_Name: Grid3
   m_TagString: Untagged
@@ -18818,6 +18912,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 130.0645, y: 0.0000008742284, z: 19.999998}
   m_Center: {x: 1.2688522, y: 0, z: -0.0000019073486}
+--- !u!114 &753641366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753641362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1877731938}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &757275239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19659,6 +19771,11 @@ Transform:
 --- !u!1 &794210779 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 794210777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &794210780 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 794210777}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &799624086
@@ -22727,6 +22844,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 943259383}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &943259386 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 943259383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &944643486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24204,6 +24326,11 @@ Transform:
 --- !u!1 &1005796597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1005796595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1005796598 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1005796595}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1006389305
@@ -26850,6 +26977,8 @@ GameObject:
   - component: {fileID: 1094697887}
   - component: {fileID: 1094697888}
   - component: {fileID: 1094697889}
+  - component: {fileID: 1094697891}
+  - component: {fileID: 1094697892}
   m_Layer: 0
   m_Name: Grid4
   m_TagString: Untagged
@@ -26910,6 +27039,42 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 100.47261, y: 0.0000008742284, z: 38.7135}
   m_Center: {x: -0.2193222, y: 0, z: -0.46572876}
+--- !u!114 &1094697891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094697886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1282574931}
+  glowColor: {r: 0.4666667, g: 0.627451, b: 0.18823531, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
+--- !u!114 &1094697892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094697886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1282574931}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1097735270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30417,6 +30582,7 @@ GameObject:
   - component: {fileID: 1259754164}
   - component: {fileID: 1259754165}
   - component: {fileID: 1259754166}
+  - component: {fileID: 1259754167}
   m_Layer: 0
   m_Name: Grid12
   m_TagString: Untagged
@@ -30477,6 +30643,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 99.918915, y: 0.0000008742284, z: 20.015472}
   m_Center: {x: -0.0015716553, y: 0, z: 0.017196655}
+--- !u!114 &1259754167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259754163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 794210780}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1262266329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31023,6 +31207,11 @@ PrefabInstance:
 --- !u!4 &1282574930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1282574929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1282574931 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1282574929}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1283736188
@@ -37555,6 +37744,7 @@ GameObject:
   - component: {fileID: 1553343999}
   - component: {fileID: 1553344000}
   - component: {fileID: 1553344001}
+  - component: {fileID: 1553344002}
   m_Layer: 0
   m_Name: Grid7
   m_TagString: Untagged
@@ -37614,6 +37804,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
   m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
+--- !u!114 &1553344002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553343998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1940007980}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1554345430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38933,6 +39141,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2509cc5763ca17f4598bf61fd585a93e, type: 3}
   m_PrefabInstance: {fileID: 1597585425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1600164198 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 463331291}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1602143403
 PrefabInstance:
@@ -42022,11 +42235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5
+      value: 7.3749003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 8.7521
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42073,6 +42286,11 @@ Transform:
 --- !u!1 &1694134519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1694134517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1694134520 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1694134517}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1697392286
@@ -43447,6 +43665,7 @@ GameObject:
   - component: {fileID: 1744146450}
   - component: {fileID: 1744146451}
   - component: {fileID: 1744146452}
+  - component: {fileID: 1744146453}
   m_Layer: 0
   m_Name: Grid11
   m_TagString: Untagged
@@ -43507,6 +43726,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 99.918915, y: 0.0000008742284, z: 20.160995}
   m_Center: {x: -0.0015716553, y: 0, z: -0.05556488}
+--- !u!114 &1744146453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744146449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1845499722}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1746131901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44274,6 +44511,7 @@ GameObject:
   - component: {fileID: 1791713067}
   - component: {fileID: 1791713068}
   - component: {fileID: 1791713069}
+  - component: {fileID: 1791713070}
   m_Layer: 0
   m_Name: Grid6
   m_TagString: Untagged
@@ -44334,6 +44572,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.086761, y: 0.0000008742278, z: 197.96713}
   m_Center: {x: -0.07020569, y: 0, z: 0.008895874}
+--- !u!114 &1791713070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791713066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 1005796598}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1791896143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45614,6 +45870,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1845499719}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &1845499722 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1845499719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1847683017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45787,6 +46048,7 @@ GameObject:
   - component: {fileID: 1850871474}
   - component: {fileID: 1850871475}
   - component: {fileID: 1850871476}
+  - component: {fileID: 1850871477}
   m_Layer: 0
   m_Name: Grid9
   m_TagString: Untagged
@@ -45847,6 +46109,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
   m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
+--- !u!114 &1850871477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850871473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 215921788}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &1851622060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46535,6 +46815,11 @@ Transform:
 --- !u!1 &1877731937 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1877731935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1877731938 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1877731935}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1878651179
@@ -48137,6 +48422,11 @@ Transform:
 --- !u!1 &1940007979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 34736977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1940007980 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 34736977}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1942816556
@@ -50050,6 +50340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031967804}
+  - component: {fileID: 2031967805}
   m_Layer: 0
   m_Name: GreenField
   m_TagString: Untagged
@@ -50075,6 +50366,26 @@ Transform:
   - {fileID: 562816634}
   m_Father: {fileID: 345170757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2031967805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031967803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 2060070370}
+  - {fileID: 1600164198}
+  - {fileID: 562816635}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &2035912741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51009,6 +51320,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
   m_PrefabInstance: {fileID: 2059980347}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &2060070370 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 398676122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2062111768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51919,6 +52235,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 2096971920}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &2096971923 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 2096971920}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2100914764
 GameObject:
   m_ObjectHideFlags: 0
@@ -51930,6 +52251,7 @@ GameObject:
   - component: {fileID: 2100914765}
   - component: {fileID: 2100914766}
   - component: {fileID: 2100914767}
+  - component: {fileID: 2100914768}
   m_Layer: 0
   m_Name: Grid10
   m_TagString: Untagged
@@ -51990,6 +52312,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
   m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
+--- !u!114 &2100914768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100914764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad3a58a57fbc9b4c9c8465b5558f5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlotGlow
+  greenFieldRenderers:
+  - {fileID: 943259386}
+  glowColor: {r: 0.467, g: 0.627, b: 0.188, a: 1}
+  pulseSpeed: 4
+  minIntensity: 0.2
+  maxIntensity: 0.8
 --- !u!1001 &2101023356
 PrefabInstance:
   m_ObjectHideFlags: 0

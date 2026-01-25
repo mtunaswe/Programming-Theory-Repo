@@ -8,7 +8,14 @@ public class ConstructionPlot : MonoBehaviour
     [Header("Available Models in this Slot")]
     public GameObject[] buildableOptions; 
     
+    // ENCAPSULATION: The private variable holds the data
     private bool isOccupied = false;
+
+    // ENCAPSULATION: The public property allows reading but not writing from outside
+    public bool IsOccupied 
+    {
+        get { return isOccupied; }
+    }
 
     void OnMouseDown()
     {
