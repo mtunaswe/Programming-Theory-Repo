@@ -560,6 +560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 19889536}
+  - component: {fileID: 19889537}
   m_Layer: 0
   m_Name: CityHouses8
   m_TagString: Untagged
@@ -595,6 +596,19 @@ Transform:
   - {fileID: 1986856840}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &19889537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19889535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &24269396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3830,6 +3844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203700693}
+  - component: {fileID: 203700694}
   m_Layer: 0
   m_Name: Factory3
   m_TagString: Untagged
@@ -3915,6 +3930,19 @@ Transform:
   - {fileID: 581566262}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &203700694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203700692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f4774ab047e6d48b67cf5db650e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Factory
+  buildingName: 
 --- !u!1001 &210033311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7401,6 +7429,9 @@ GameObject:
   m_Component:
   - component: {fileID: 345170757}
   - component: {fileID: 345170758}
+  - component: {fileID: 345170761}
+  - component: {fileID: 345170760}
+  - component: {fileID: 345170759}
   m_Layer: 0
   m_Name: Grid5
   m_TagString: Untagged
@@ -7439,6 +7470,69 @@ MonoBehaviour:
   greenFieldModel: {fileID: 2031967803}
   buildableOptions:
   - {fileID: 1008707447}
+--- !u!65 &345170759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345170756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 46.579628, y: 0.0000008742284, z: 7.023163}
+  m_Center: {x: 36.80956, y: 0, z: -19.19728}
+--- !u!65 &345170760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345170756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 26.836617, y: 0.0000008742284, z: 7.023163}
+  m_Center: {x: -26.66946, y: 0, z: -19.19728}
+--- !u!65 &345170761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345170756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 100.29651, y: 0.0000008742284, z: 31.655838}
+  m_Center: {x: 10.071838, y: 0, z: 0.21860504}
 --- !u!1001 &345470546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8158,6 +8252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384762956}
+  - component: {fileID: 384762957}
   m_Layer: 0
   m_Name: CityHouses4
   m_TagString: Untagged
@@ -8196,6 +8291,19 @@ Transform:
   - {fileID: 1041687215}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384762957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384762955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &387406121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8314,6 +8422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 396909059}
   - component: {fileID: 396909060}
+  - component: {fileID: 396909061}
   m_Layer: 0
   m_Name: Grid8
   m_TagString: Untagged
@@ -8352,6 +8461,27 @@ MonoBehaviour:
   greenFieldModel: {fileID: 412625098}
   buildableOptions:
   - {fileID: 384762955}
+--- !u!65 &396909061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396909058}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
+  m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
 --- !u!1001 &397322077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10126,6 +10256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 456071766}
+  - component: {fileID: 456071767}
   m_Layer: 0
   m_Name: CityHouses5
   m_TagString: Untagged
@@ -10160,6 +10291,19 @@ Transform:
   - {fileID: 868082260}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &456071767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456071765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &462483863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10622,6 +10766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476684075}
   - component: {fileID: 476684076}
+  - component: {fileID: 476684077}
   m_Layer: 0
   m_Name: Grid2
   m_TagString: Untagged
@@ -10661,6 +10806,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 1288561327}
   - {fileID: 456071765}
+--- !u!65 &476684077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476684074}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.086761, y: 0.0000008742278, z: 197.96713}
+  m_Center: {x: -0.07020569, y: 0, z: 0.008895874}
 --- !u!1001 &478145462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12099,6 +12265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534955809}
   - component: {fileID: 534955810}
+  - component: {fileID: 534955811}
   m_Layer: 0
   m_Name: Grid1
   m_TagString: Untagged
@@ -12115,7 +12282,7 @@ Transform:
   m_GameObject: {fileID: 534955808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.0092, y: -0.4, z: 40}
+  m_LocalPosition: {x: 55.0092, y: 0, z: 40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12137,6 +12304,27 @@ MonoBehaviour:
   greenFieldModel: {fileID: 1694134519}
   buildableOptions:
   - {fileID: 687421016}
+--- !u!65 &534955811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534955808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 130.69861, y: 0.0000008742278, z: 20.000004}
+  m_Center: {x: 0.1621437, y: 0, z: 0}
 --- !u!1001 &537673479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14326,6 +14514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633033182}
+  - component: {fileID: 633033183}
   m_Layer: 0
   m_Name: Park2
   m_TagString: Untagged
@@ -14429,6 +14618,19 @@ Transform:
   - {fileID: 1453525806}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633033183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633033181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7e68844a80dd44b875444c2c6913bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Park
+  buildingName: 
 --- !u!1001 &635114601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15518,6 +15720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670262321}
+  - component: {fileID: 670262322}
   m_Layer: 0
   m_Name: Park1
   m_TagString: Untagged
@@ -15612,6 +15815,19 @@ Transform:
   - {fileID: 1634317525}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &670262322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670262320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7e68844a80dd44b875444c2c6913bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Park
+  buildingName: 
 --- !u!1001 &670745846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16049,6 +16265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 687421017}
+  - component: {fileID: 687421018}
   m_Layer: 0
   m_Name: CityHouses2
   m_TagString: Untagged
@@ -16084,6 +16301,19 @@ Transform:
   - {fileID: 1033163175}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687421018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687421016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &690928086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17842,6 +18072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 753641363}
   - component: {fileID: 753641364}
+  - component: {fileID: 753641365}
   m_Layer: 0
   m_Name: Grid3
   m_TagString: Untagged
@@ -17858,7 +18089,7 @@ Transform:
   m_GameObject: {fileID: 753641362}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 185.43, y: -0.20000362, z: 40}
+  m_LocalPosition: {x: 183.8, y: 0, z: 40.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17881,6 +18112,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 1830832463}
   - {fileID: 1618081907}
+--- !u!65 &753641365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753641362}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 130.0645, y: 0.0000008742284, z: 19.999998}
+  m_Center: {x: 1.2688522, y: 0, z: -0.0000019073486}
 --- !u!1001 &757275239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20484,6 +20736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 870433436}
+  - component: {fileID: 870433437}
   m_Layer: 0
   m_Name: CityHouses9
   m_TagString: Untagged
@@ -20540,6 +20793,19 @@ Transform:
   - {fileID: 149588990}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &870433437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870433435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &872281668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20603,6 +20869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 873227386}
+  - component: {fileID: 873227387}
   m_Layer: 0
   m_Name: CityHouses10
   m_TagString: Untagged
@@ -20637,6 +20904,19 @@ Transform:
   - {fileID: 684349282}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &873227387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873227385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &877366477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21252,7 +21532,7 @@ Transform:
   m_GameObject: {fileID: 916569683}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: 88, y: -4.1, z: 121.4}
+  m_LocalPosition: {x: -21.03, y: -14.4, z: 121.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23358,6 +23638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1008707448}
+  - component: {fileID: 1008707449}
   m_Layer: 0
   m_Name: VillaNeighborhood1
   m_TagString: Untagged
@@ -23426,6 +23707,19 @@ Transform:
   - {fileID: 313381611}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1008707449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008707447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7b3b80ce1fbe4681736986830e304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Villa
+  buildingName: 
 --- !u!1001 &1009064239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25067,6 +25361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1066380526}
+  - component: {fileID: 1066380527}
   m_Layer: 0
   m_Name: CityHouses1
   m_TagString: Untagged
@@ -25103,6 +25398,19 @@ Transform:
   - {fileID: 400167584}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066380527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066380525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &1069084927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25657,6 +25965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094697887}
   - component: {fileID: 1094697888}
+  - component: {fileID: 1094697889}
   m_Layer: 0
   m_Name: Grid4
   m_TagString: Untagged
@@ -25696,6 +26005,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 1883915922}
   - {fileID: 203700692}
+--- !u!65 &1094697889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094697886}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 100.47261, y: 0.0000008742284, z: 38.7135}
+  m_Center: {x: -0.2193222, y: 0, z: -0.46572876}
 --- !u!1001 &1097735270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29202,6 +29532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259754164}
   - component: {fileID: 1259754165}
+  - component: {fileID: 1259754166}
   m_Layer: 0
   m_Name: Grid12
   m_TagString: Untagged
@@ -29241,6 +29572,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 633033181}
   - {fileID: 1713039833}
+--- !u!65 &1259754166
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259754163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.918915, y: 0.0000008742284, z: 20.015472}
+  m_Center: {x: -0.0015716553, y: 0, z: 0.017196655}
 --- !u!1001 &1262266329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30068,6 +30420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288561328}
+  - component: {fileID: 1288561329}
   m_Layer: 0
   m_Name: Park5
   m_TagString: Untagged
@@ -30119,6 +30472,19 @@ Transform:
   - {fileID: 503217520}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1288561329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288561327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7e68844a80dd44b875444c2c6913bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Park
+  buildingName: 
 --- !u!1001 &1290487846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31922,6 +32288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354068590}
+  - component: {fileID: 1354068591}
   m_Layer: 0
   m_Name: CityHouses7
   m_TagString: Untagged
@@ -31953,6 +32320,19 @@ Transform:
   - {fileID: 679745700}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1354068591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354068589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &1356836063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36157,6 +36537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553343999}
   - component: {fileID: 1553344000}
+  - component: {fileID: 1553344001}
   m_Layer: 0
   m_Name: Grid7
   m_TagString: Untagged
@@ -36195,6 +36576,27 @@ MonoBehaviour:
   greenFieldModel: {fileID: 0}
   buildableOptions:
   - {fileID: 1066380525}
+--- !u!65 &1553344001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553343998}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
+  m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
 --- !u!1001 &1554345430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37968,6 +38370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1618081908}
+  - component: {fileID: 1618081909}
   m_Layer: 0
   m_Name: Park3
   m_TagString: Untagged
@@ -38061,6 +38464,19 @@ Transform:
   - {fileID: 42695115}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1618081909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618081907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7e68844a80dd44b875444c2c6913bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Park
+  buildingName: 
 --- !u!1001 &1622086765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39336,6 +39752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1655419982}
+  - component: {fileID: 1655419983}
   m_Layer: 0
   m_Name: Factory1
   m_TagString: Untagged
@@ -39386,6 +39803,19 @@ Transform:
   - {fileID: 238199417}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655419983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655419981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f4774ab047e6d48b67cf5db650e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Factory
+  buildingName: 
 --- !u!1001 &1664279346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40500,8 +40930,16 @@ PrefabInstance:
       value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.502628
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40534,6 +40972,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40991,6 +41433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713039834}
+  - component: {fileID: 1713039835}
   m_Layer: 0
   m_Name: CityHouses6
   m_TagString: Untagged
@@ -41025,6 +41468,19 @@ Transform:
   - {fileID: 1268159632}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1713039835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713039833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &1714714682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41907,6 +42363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1744146450}
   - component: {fileID: 1744146451}
+  - component: {fileID: 1744146452}
   m_Layer: 0
   m_Name: Grid11
   m_TagString: Untagged
@@ -41946,6 +42403,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 670262320}
   - {fileID: 1354068589}
+--- !u!65 &1744146452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744146449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.918915, y: 0.0000008742284, z: 20.160995}
+  m_Center: {x: -0.0015716553, y: 0, z: -0.05556488}
 --- !u!1001 &1746131901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42712,6 +43190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791713067}
   - component: {fileID: 1791713068}
+  - component: {fileID: 1791713069}
   m_Layer: 0
   m_Name: Grid6
   m_TagString: Untagged
@@ -42751,6 +43230,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 2137647885}
   - {fileID: 19889535}
+--- !u!65 &1791713069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791713066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.086761, y: 0.0000008742278, z: 197.96713}
+  m_Center: {x: -0.07020569, y: 0, z: 0.008895874}
 --- !u!1001 &1791896143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43632,6 +44132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1830832464}
+  - component: {fileID: 1830832465}
   m_Layer: 0
   m_Name: CityHouses3
   m_TagString: Untagged
@@ -43672,6 +44173,19 @@ Transform:
   - {fileID: 2026031820}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830832465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830832463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f5808bbc4aa4f4c9cc2803e34b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House
+  buildingName: 
 --- !u!1001 &1831582752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44189,6 +44703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850871474}
   - component: {fileID: 1850871475}
+  - component: {fileID: 1850871476}
   m_Layer: 0
   m_Name: Grid9
   m_TagString: Untagged
@@ -44228,6 +44743,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 1915517499}
   - {fileID: 873227385}
+--- !u!65 &1850871476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850871473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
+  m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
 --- !u!1001 &1851622060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44732,11 +45268,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5537496
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -44744,7 +45280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45265,6 +45801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1883915923}
+  - component: {fileID: 1883915924}
   m_Layer: 0
   m_Name: VillaNeighborhood2
   m_TagString: Untagged
@@ -45328,6 +45865,19 @@ Transform:
   - {fileID: 1622086766}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1883915924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883915922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7b3b80ce1fbe4681736986830e304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Villa
+  buildingName: 
 --- !u!1001 &1884850410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45997,6 +46547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1915517500}
+  - component: {fileID: 1915517501}
   m_Layer: 0
   m_Name: Factory2
   m_TagString: Untagged
@@ -46042,6 +46593,19 @@ Transform:
   - {fileID: 1475619600}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915517501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915517499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f4774ab047e6d48b67cf5db650e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Factory
+  buildingName: 
 --- !u!1001 &1917133318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49973,6 +50537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2100914765}
   - component: {fileID: 2100914766}
+  - component: {fileID: 2100914767}
   m_Layer: 0
   m_Name: Grid10
   m_TagString: Untagged
@@ -50012,6 +50577,27 @@ MonoBehaviour:
   buildableOptions:
   - {fileID: 1655419981}
   - {fileID: 870433435}
+--- !u!65 &2100914767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100914764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 40.29442, y: 0.0000008742278, z: 40.52948}
+  m_Center: {x: -0.061515808, y: 0, z: -0.49730682}
 --- !u!1001 &2101023356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50507,6 +51093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2137647886}
+  - component: {fileID: 2137647887}
   m_Layer: 0
   m_Name: Park4
   m_TagString: Untagged
@@ -50558,6 +51145,19 @@ Transform:
   - {fileID: 1148831857}
   m_Father: {fileID: 1675438865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137647887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137647885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7e68844a80dd44b875444c2c6913bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Park
+  buildingName: 
 --- !u!1001 &2146153811
 PrefabInstance:
   m_ObjectHideFlags: 0
