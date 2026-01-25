@@ -4093,6 +4093,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 215921785}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &215921787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 215921785}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &216378361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7395,6 +7400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 345170757}
+  - component: {fileID: 345170758}
   m_Layer: 0
   m_Name: Grid5
   m_TagString: Untagged
@@ -7415,11 +7421,24 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 398676123}
-  - {fileID: 463331292}
-  - {fileID: 562816634}
+  - {fileID: 2031967804}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &345170758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345170756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 2031967803}
+  buildableOptions:
+  - {fileID: 1008707447}
 --- !u!1001 &345470546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8294,6 +8313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 396909059}
+  - component: {fileID: 396909060}
   m_Layer: 0
   m_Name: Grid8
   m_TagString: Untagged
@@ -8317,6 +8337,21 @@ Transform:
   - {fileID: 412625097}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &396909060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396909058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 412625098}
+  buildableOptions:
+  - {fileID: 384762955}
 --- !u!1001 &397322077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8377,7 +8412,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 345170757}
+    m_TransformParent: {fileID: 2031967804}
     m_Modifications:
     - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_Name
@@ -8659,6 +8694,11 @@ PrefabInstance:
 --- !u!4 &412625097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 412625096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &412625098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 412625096}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &413455499
@@ -10180,7 +10220,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 345170757}
+    m_TransformParent: {fileID: 2031967804}
     m_Modifications:
     - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_Name
@@ -10581,6 +10621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476684075}
+  - component: {fileID: 476684076}
   m_Layer: 0
   m_Name: Grid2
   m_TagString: Untagged
@@ -10604,6 +10645,22 @@ Transform:
   - {fileID: 2096971921}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476684076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476684074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 2096971922}
+  buildableOptions:
+  - {fileID: 1288561327}
+  - {fileID: 456071765}
 --- !u!1001 &478145462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12041,6 +12098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 534955809}
+  - component: {fileID: 534955810}
   m_Layer: 0
   m_Name: Grid1
   m_TagString: Untagged
@@ -12064,6 +12122,21 @@ Transform:
   - {fileID: 1694134518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534955810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534955808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 1694134519}
+  buildableOptions:
+  - {fileID: 687421016}
 --- !u!1001 &537673479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12838,7 +12911,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 345170757}
+    m_TransformParent: {fileID: 2031967804}
     m_Modifications:
     - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_Name
@@ -17768,6 +17841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753641363}
+  - component: {fileID: 753641364}
   m_Layer: 0
   m_Name: Grid3
   m_TagString: Untagged
@@ -17791,6 +17865,22 @@ Transform:
   - {fileID: 1877731936}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &753641364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753641362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 1877731937}
+  buildableOptions:
+  - {fileID: 1830832463}
+  - {fileID: 1618081907}
 --- !u!1001 &757275239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18627,6 +18717,11 @@ PrefabInstance:
 --- !u!4 &794210778 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 794210777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &794210779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 794210777}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &799624086
@@ -21662,6 +21757,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 943259383}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &943259385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 943259383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &944643486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23134,6 +23234,11 @@ PrefabInstance:
 --- !u!4 &1005796596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1005796595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1005796597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1005796595}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1006389305
@@ -25551,6 +25656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1094697887}
+  - component: {fileID: 1094697888}
   m_Layer: 0
   m_Name: Grid4
   m_TagString: Untagged
@@ -25574,6 +25680,22 @@ Transform:
   - {fileID: 1282574930}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094697888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094697886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 0}
+  buildableOptions:
+  - {fileID: 1883915922}
+  - {fileID: 203700692}
 --- !u!1001 &1097735270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29079,6 +29201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259754164}
+  - component: {fileID: 1259754165}
   m_Layer: 0
   m_Name: Grid12
   m_TagString: Untagged
@@ -29102,6 +29225,22 @@ Transform:
   - {fileID: 794210778}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259754165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259754163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 794210779}
+  buildableOptions:
+  - {fileID: 633033181}
+  - {fileID: 1713039833}
 --- !u!1001 &1262266329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36017,6 +36156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1553343999}
+  - component: {fileID: 1553344000}
   m_Layer: 0
   m_Name: Grid7
   m_TagString: Untagged
@@ -36040,6 +36180,21 @@ Transform:
   - {fileID: 34736978}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553344000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553343998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 0}
+  buildableOptions:
+  - {fileID: 1066380525}
 --- !u!1001 &1554345430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40390,6 +40545,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1694134517}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1694134519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1694134517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1697392286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41746,6 +41906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1744146450}
+  - component: {fileID: 1744146451}
   m_Layer: 0
   m_Name: Grid11
   m_TagString: Untagged
@@ -41769,6 +41930,22 @@ Transform:
   - {fileID: 1845499720}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744146451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744146449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 1845499721}
+  buildableOptions:
+  - {fileID: 670262320}
+  - {fileID: 1354068589}
 --- !u!1001 &1746131901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42534,6 +42711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1791713067}
+  - component: {fileID: 1791713068}
   m_Layer: 0
   m_Name: Grid6
   m_TagString: Untagged
@@ -42557,6 +42735,22 @@ Transform:
   - {fileID: 1005796596}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791713068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791713066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 1005796597}
+  buildableOptions:
+  - {fileID: 2137647885}
+  - {fileID: 19889535}
 --- !u!1001 &1791896143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43818,6 +44012,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1845499719}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1845499721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1845499719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1847683017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43989,6 +44188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1850871474}
+  - component: {fileID: 1850871475}
   m_Layer: 0
   m_Name: Grid9
   m_TagString: Untagged
@@ -44012,6 +44212,22 @@ Transform:
   - {fileID: 215921786}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1850871475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850871473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 215921787}
+  buildableOptions:
+  - {fileID: 1915517499}
+  - {fileID: 873227385}
 --- !u!1001 &1851622060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44558,6 +44774,11 @@ PrefabInstance:
 --- !u!4 &1877731936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 1877731935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1877731937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 1877731935}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1878651179
@@ -47997,6 +48218,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
   m_PrefabInstance: {fileID: 2028628054}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2031967803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031967804}
+  m_Layer: 0
+  m_Name: GreenField
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031967804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031967803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 398676123}
+  - {fileID: 463331292}
+  - {fileID: 562816634}
+  m_Father: {fileID: 345170757}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2035912741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49703,6 +49958,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
   m_PrefabInstance: {fileID: 2096971920}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2096971922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 2096971920}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2100914764
 GameObject:
   m_ObjectHideFlags: 0
@@ -49712,6 +49972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2100914765}
+  - component: {fileID: 2100914766}
   m_Layer: 0
   m_Name: Grid10
   m_TagString: Untagged
@@ -49735,6 +49996,22 @@ Transform:
   - {fileID: 943259384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100914766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100914764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c51762e0c45f4d8b8d71b0ca7451c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionPlot
+  greenFieldModel: {fileID: 943259385}
+  buildableOptions:
+  - {fileID: 1655419981}
+  - {fileID: 870433435}
 --- !u!1001 &2101023356
 PrefabInstance:
   m_ObjectHideFlags: 0
