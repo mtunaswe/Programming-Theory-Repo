@@ -10,8 +10,8 @@ public class PlotGlow : MonoBehaviour
     [Header("Glow Settings")]
     public Color glowColor = new Color(0.467f, 0.627f, 0.188f, 1.0f);
     public float pulseSpeed = 4f;
-    [Range(0, 1)] public float minIntensity = 0.2f; // Minimum brightness
-    [Range(0, 1)] public float maxIntensity = 0.8f; // Maximum brightness
+    [Range(0, 1)] public float minIntensity = 0.2f; 
+    [Range(0, 1)] public float maxIntensity = 0.8f; 
 
     private Color originalColor;
     private bool isHovering = false;
@@ -52,6 +52,6 @@ public class PlotGlow : MonoBehaviour
     void OnMouseExit()
     {
         isHovering = false;
-        ApplyColor(originalColor); // Reset instantly or Lerp back if preferred
+        ApplyColor(originalColor); 
     }
 }

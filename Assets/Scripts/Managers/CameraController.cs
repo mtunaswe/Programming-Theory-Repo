@@ -9,7 +9,7 @@ public class IsoCameraController : MonoBehaviour
 
     [Header("Bounds (Prevent flying too high/low)")]
     public bool enableBounds = true;
-    public Vector2 heightBounds = new Vector2(0f, 50f); // Min Y, Max Y
+    public Vector2 heightBounds = new Vector2(0f, 50f); 
     public Vector2 mapBoundsX = new Vector2(-100f, 100f);
     public Vector2 mapBoundsZ = new Vector2(-100f, 100f);
 

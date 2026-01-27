@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 public class ConstructionPlot : MonoBehaviour
 {
     [Header("Visuals")]
-    public GameObject greenFieldModel; // Drag your 3D Green Field model here
+    public GameObject greenFieldModel; 
 
     [Header("Available Models in this Slot")]
     public GameObject[] buildableOptions; 
@@ -28,7 +28,6 @@ public class ConstructionPlot : MonoBehaviour
 
         if (isOccupied) return;
 
-        // ENCAPSULATION: We only open the manager if the plot is free and not blocked by UI
         RadialMenuManager.Instance.Open(this);
     }
     public void BuildAtIndex(int index)

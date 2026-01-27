@@ -42,11 +42,13 @@ public class DataManager : MonoBehaviour
         UpdateUI(); // INITIAL UI UPDATE to see the starting stats
 
         string playerName = PlayerPrefs.GetString("PlayerName", "Architect");
+        Debug.Log($"Welcome, {playerName}!");
         if (PlayerNameText) PlayerNameText.text = $"{playerName}'s City";
 
         InvokeRepeating("UpdateCityCycle", 5.0f, 5.0f);
     }
 
+    // ABSTRACTION: Simplified method to register a new building
     public void RegisterBuilding(Building newBuilding)
     {
         activeBuildings.Add(newBuilding);
@@ -57,11 +59,13 @@ public class DataManager : MonoBehaviour
     }
 
     // ONE-TIME IMPACTS: Apply immediately upon construction
+    // ABSTRACTION: Simplified methods to modify core stats
     public void AddPopulation(int amount)
     {
         population += amount;
     }
 
+    // ABSTRACTION: Simplified methods to modify core stats
     public void AddEcoScore(float amount)
     {
         ecoScore += amount;

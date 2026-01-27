@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// This fulfills the INHERITANCE and ABSTRACTION requirements
 public abstract class Building : MonoBehaviour
 {
     [Header("Building Metadata")]
@@ -10,7 +9,6 @@ public abstract class Building : MonoBehaviour
     // Persistent Stats (Every 5 Seconds)
     public virtual int incomeGeneration => 0;   // Factory > Villa > House
     
-
     // One-Time Impact
     public virtual int  populationImpact => 0; // House > Villa > Park/Factory(0)
     public virtual float ecoScoreImpact => 0f;  // Park(+) > Factory(-) > House/Villa(small)

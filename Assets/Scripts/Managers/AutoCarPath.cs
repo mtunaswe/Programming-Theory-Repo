@@ -56,7 +56,6 @@ public class AutoCarPath : MonoBehaviour
 
             if (waypoints.Count > 0)
             {
-                // --- NEW LOGIC ADDED HERE ---
                 // Instead of starting at 0, calculate the best index based on current position
                 currentTargetIndex = GetClosestWaypointIndex();
                 
