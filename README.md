@@ -37,4 +37,4 @@ A strategic isometric city-building game where players must balance urban expans
 
 📝 Credits
 
-    Assets: SimplyPolyCity - Low Poly Assets (Unity Asset Store/Free)
+* Assets: SimplyPolyCity - Low Poly Assets (Unity Asset Store/Free)
