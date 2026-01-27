@@ -18,7 +18,9 @@ public class DataManager : MonoBehaviour
     [Header("UI Panels")]
     public GameObject winPanel;       
     public GameObject gameOverPanel;  
-    public TextMeshProUGUI statsText;
+    public TextMeshProUGUI GoldText;
+    public TextMeshProUGUI PopulationText;
+    public TextMeshProUGUI EcoScoreText;
 
     private List<Building> activeBuildings = new List<Building>();
     private int totalPlots;
@@ -36,6 +38,7 @@ public class DataManager : MonoBehaviour
         if(winPanel) winPanel.SetActive(false);
         if(gameOverPanel) gameOverPanel.SetActive(false);
 
+        UpdateUI(); // INITIAL UI UPDATE to see the starting stats
         InvokeRepeating("UpdateCityCycle", 5.0f, 5.0f);
     }
 
@@ -72,7 +75,6 @@ public class DataManager : MonoBehaviour
             return;
         }
 
-        // ENCAPSULATION: Failure state check once the city is full
         if (occupiedPlots >= totalPlots)
         {
             TriggerEndState(gameOverPanel);
@@ -93,6 +95,8 @@ public class DataManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        statsText.text = $"$: {money} | Pop: {population}/{targetPopulation} | Eco: {ecoScore:F0}/{targetEcoScore}";
+        GoldText.text = $"{money}";
+        PopulationText.text = $"{population}/{targetPopulation}";
+        EcoScoreText.text = $"{ecoScore}/{targetEcoScore}";
     }
 }
