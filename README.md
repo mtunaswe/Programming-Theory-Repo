@@ -19,12 +19,12 @@ A strategic isometric city-building game where players must balance urban expans
 * **Auto-Discovery:** Vehicles automatically identify and assign themselves to nearby road networks.
 * **Smart Parking:** A "Ticket System" algorithm ensures cars fill parking spots sequentially without collision.
 * **One-Way Logic:** Autonomous navigation that handles start-to-end delivery routes.
+* **Isometric Camera:** Custom controller featuring smooth panning (Lerp), screen-space dragging, and orthographic zooming.
 
 ![Title Screen Screenshot](Screenshots/titleScreen.png)
+
 ![Victory Screenshot](Screenshots/victory.png)
 
-
-* **Isometric Camera:** Custom controller featuring smooth panning (Lerp), screen-space dragging, and orthographic zooming.
 
 ## 🕹️ Controls
 
