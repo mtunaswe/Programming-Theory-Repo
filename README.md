@@ -25,7 +25,6 @@ A strategic isometric city-building game where players must balance urban expans
 
 ![Victory Screenshot](Screenshots/victory.png)
 
-
 ## 🕹️ Controls
 
 | Input | Action |
@@ -34,6 +33,10 @@ A strategic isometric city-building game where players must balance urban expans
 | **Right Mouse (Hold)** | Drag to Move Camera |
 | **Scroll Wheel** | Zoom In / Out |
 | **Left Click** | Interact / Build on Plot |
+
+## MVP Sketch
+![MVP Sketch](Screenshots/mvp sketch - city builder.png)
+
 
 📝 Credits
 
