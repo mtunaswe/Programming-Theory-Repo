@@ -51,15 +51,21 @@ public class DataManager : MonoBehaviour
     {
         activeBuildings.Add(newBuilding);
         occupiedPlots++; // TRACKING: Increments every time a building is successfully placed
-        
-        // ONE-TIME IMPACTS: Apply immediately upon construction
-        population += newBuilding.populationImpact;
-        ecoScore += newBuilding.ecoScoreImpact;
-        
+                
         UpdateUI();
         CheckGameState(); 
     }
 
+    // ONE-TIME IMPACTS: Apply immediately upon construction
+    public void AddPopulation(int amount)
+    {
+        population += amount;
+    }
+
+    public void AddEcoScore(float amount)
+    {
+        ecoScore += amount;
+    }
     void UpdateCityCycle()
     {
         int totalNewMoney = 0;

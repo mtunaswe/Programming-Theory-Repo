@@ -11,6 +11,8 @@ public class Villa : Building
     }
     public override void ApplyBuildingEffect()
     {
+        DataManager.Instance.AddPopulation(populationImpact);
+        DataManager.Instance.AddEcoScore(ecoScoreImpact);
         DataManager.Instance.RegisterBuilding(this);
         Debug.Log($"[Construction] {BuildingName} built! Luxury residence established. Tax revenue increased.");
     }

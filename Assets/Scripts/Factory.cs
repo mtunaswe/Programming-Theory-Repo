@@ -12,6 +12,8 @@ public class Factory : Building
     
     public override void ApplyBuildingEffect()
     {
+        DataManager.Instance.AddPopulation(populationImpact);
+        DataManager.Instance.AddEcoScore(ecoScoreImpact);
         DataManager.Instance.RegisterBuilding(this);
         Debug.Log($"[Construction] {BuildingName} built! Industrial production started. Eco-Score decreased.");
     }

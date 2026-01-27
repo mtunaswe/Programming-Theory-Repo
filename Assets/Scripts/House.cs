@@ -11,6 +11,8 @@ public class House : Building
     }
     public override void ApplyBuildingEffect()
     {
+        DataManager.Instance.AddPopulation(populationImpact);
+        DataManager.Instance.AddEcoScore(ecoScoreImpact);
         DataManager.Instance.RegisterBuilding(this);
         Debug.Log($"[Construction] {BuildingName} built! Housing capacity increased.");
     }

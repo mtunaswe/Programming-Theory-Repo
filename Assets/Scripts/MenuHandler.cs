@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement; // Required to change scenes
 using TMPro; 
+#if UNITY_EDITOR
+using UnityEditor; 
+#endif
 
 public class MenuHandler : MonoBehaviour
 {
@@ -33,5 +36,17 @@ public class MenuHandler : MonoBehaviour
     public void LoadGameScene()
     {
         SceneManager.LoadScene(sceneToLoad);
+    }
+
+    public void ExitGame()
+    {
+#if UNITY_EDITOR
+        // If we are testing in the editor, just stop playing
+        EditorApplication.isPlaying = false;
+#else
+        // If we are in the real built game, close the window
+        Application.Quit();
+#endif
+        Debug.Log("Game Closed."); // Visual feedback in console
     }
 }

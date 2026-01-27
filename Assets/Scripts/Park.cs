@@ -1,3 +1,4 @@
+using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 
 public class Park : Building
@@ -11,6 +12,8 @@ public class Park : Building
     }
     public override void ApplyBuildingEffect()
     {
+        DataManager.Instance.AddPopulation(populationImpact);
+        DataManager.Instance.AddEcoScore(ecoScoreImpact);
         DataManager.Instance.RegisterBuilding(this);
         Debug.Log($"[Construction] {BuildingName} built! Citizens are happier. Eco-Score increased.");
     }
