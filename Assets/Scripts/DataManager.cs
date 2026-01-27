@@ -21,6 +21,7 @@ public class DataManager : MonoBehaviour
     public TextMeshProUGUI GoldText;
     public TextMeshProUGUI PopulationText;
     public TextMeshProUGUI EcoScoreText;
+    public TextMeshProUGUI PlayerNameText;
 
     private List<Building> activeBuildings = new List<Building>();
     private int totalPlots;
@@ -39,6 +40,10 @@ public class DataManager : MonoBehaviour
         if(gameOverPanel) gameOverPanel.SetActive(false);
 
         UpdateUI(); // INITIAL UI UPDATE to see the starting stats
+
+        string playerName = PlayerPrefs.GetString("PlayerName", "Architect");
+        if (PlayerNameText) PlayerNameText.text = $"{playerName}'s City";
+
         InvokeRepeating("UpdateCityCycle", 5.0f, 5.0f);
     }
 
@@ -95,8 +100,8 @@ public class DataManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        GoldText.text = $"{money}";
-        PopulationText.text = $"{population}/{targetPopulation}";
-        EcoScoreText.text = $"{ecoScore}/{targetEcoScore}";
+        if (GoldText) GoldText.text = $"{money}";
+        if (PopulationText) PopulationText.text = $"{population}/{targetPopulation}";
+        if (EcoScoreText) EcoScoreText.text = $"{ecoScore}/{targetEcoScore}";
     }
 }
