@@ -8,6 +8,7 @@ TagManager:
   - Park
   - Factory
   - Villa
+  - RoadPath
   layers:
   - Default
   - TransparentFX
