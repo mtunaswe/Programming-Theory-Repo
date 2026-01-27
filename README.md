@@ -35,7 +35,7 @@ A strategic isometric city-building game where players must balance urban expans
 | **Left Click** | Interact / Build on Plot |
 
 ## MVP Sketch
-![MVP Sketch](Screenshots/mvp sketch - city builder.png)
+![MVP Sketch](Screenshots/mvp%20sketch%20-%20city%20builder.png)
 
 
 📝 Credits
