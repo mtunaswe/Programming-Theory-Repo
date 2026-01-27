@@ -5,15 +5,15 @@ public abstract class Building : MonoBehaviour
 {
     [Header("Building Metadata")]
     [SerializeField] private string buildingName;
-    [HideInInspector] public int constructionCost;
+    public virtual int constructionCost => 0;
 
-    [Header("Persistent Stats (Every 5 Seconds)")]
-    [HideInInspector] public int incomeGeneration;   // Factory > Villa > House
+    // Persistent Stats (Every 5 Seconds)
+    public virtual int incomeGeneration => 0;   // Factory > Villa > House
     
 
-    [Header("One-Time Impact")]
-    [HideInInspector] public int  populationImpact; // House > Villa > Park/Factory(0)
-    [HideInInspector] public float ecoScoreImpact;  // Park(+) > Factory(-) > House/Villa(small)
+    // One-Time Impact
+    public virtual int  populationImpact => 0; // House > Villa > Park/Factory(0)
+    public virtual float ecoScoreImpact => 0f;  // Park(+) > Factory(-) > House/Villa(small)
 
     // POLYMORPHISM: This 'abstract' method has no body here. 
     // It forces every child class to create its own unique version.

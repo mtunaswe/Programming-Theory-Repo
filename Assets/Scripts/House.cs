@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class House : Building
 {
-    void Awake()
-    {
-        constructionCost = 100;
-        incomeGeneration = 10;
-        populationImpact = 15; // Highest population
-        ecoScoreImpact = -5.0f;
-    }
+    public override int constructionCost => 100;
+    public override int incomeGeneration => 10;
+    public override int populationImpact => 15; // Highest population
+    public override float ecoScoreImpact => -5.0f;
+
     public override void ApplyBuildingEffect()
     {
         DataManager.Instance.AddPopulation(populationImpact);

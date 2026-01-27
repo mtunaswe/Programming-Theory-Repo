@@ -3,13 +3,11 @@ using UnityEngine;
 
 public class Park : Building
 {
-    void Awake()
-    {
-        constructionCost = 200;
-        incomeGeneration = 0;
-        populationImpact = 0;
-        ecoScoreImpact = 20.0f; // Highest positive eco
-    }
+    public override int constructionCost => 200;
+    public override int incomeGeneration => 0;
+    public override int populationImpact => 0;
+    public override float ecoScoreImpact => 20.0f; // Highest positive eco
+
     public override void ApplyBuildingEffect()
     {
         DataManager.Instance.AddPopulation(populationImpact);
