@@ -2,12 +2,13 @@
 
 **A Unity 3D City Builder Strategy Game**
 
+[![Play Game](https://img.shields.io/badge/Play_Game-Click_Here-blue?style=for-the-badge&logo=unity)](https://play.unity.com/api/v1/games/game/e734fd79-40ae-4240-9396-f58f4a2867f3/build/latest/frame)
+
 A strategic isometric city-building game where players must balance urban expansion with environmental sustainability. Developed in Unity (C#), this project demonstrates advanced Object-Oriented Programming (OOP) principles, autonomous AI pathfinding, and modular game architecture.
 
 ---
 
 ![Gameplay Screenshot](Screenshots/gameplay.png)
-
 
 
 ## 🎮 Gameplay Features
@@ -25,7 +26,7 @@ A strategic isometric city-building game where players must balance urban expans
 
 ![Victory Screenshot](Screenshots/victory.png)
 
-## 🕹️ Controls
+## 🕹️ PC Controls
 
 | Input | Action |
 | --- | --- |
@@ -33,6 +34,10 @@ A strategic isometric city-building game where players must balance urban expans
 | **Right Mouse (Hold)** | Drag to Move Camera |
 | **Scroll Wheel** | Zoom In / Out |
 | **Left Click** | Interact / Build on Plot |
+
+## Mobile Controls
+
+| One finger to pan, Pinch to zoom. |
 
 ## MVP Sketch
 ![MVP Sketch](Screenshots/mvp%20sketch%20-%20city%20builder.png)
