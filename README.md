@@ -2,7 +2,7 @@
 
 **A Unity 3D City Builder Strategy Game**
 
-[![Play Game](https://img.shields.io/badge/Play_Game-Click_Here-blue?style=for-the-badge&logo=unity)](https://play.unity.com/api/v1/games/game/e734fd79-40ae-4240-9396-f58f4a2867f3/build/latest/frame)
+[![Play Game](https://img.shields.io/badge/Play_Game-Click_Here-blue?style=for-the-badge&logo=unity)](https://play.unity.com/en/games/e734fd79-40ae-4240-9396-f58f4a2867f3/eco-architects-city-builder)
 
 A strategic isometric city-building game where players must balance urban expansion with environmental sustainability. Developed in Unity (C#), this project demonstrates advanced Object-Oriented Programming (OOP) principles, autonomous AI pathfinding, and modular game architecture.
 
